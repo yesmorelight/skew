@@ -163,7 +163,11 @@ body {
   
   h1{
     font-size: 4.5rem;
-    )
+  }
+    
+   .cont-text {
+     width: 80%;
+    }
   
   .menu {
     width: 100%;
