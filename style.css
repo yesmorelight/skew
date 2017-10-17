@@ -1,12 +1,8 @@
 h1 {
-  /* SKEWS ON Y AXIS */
   transform: skewY(-7deg);
-  /* MAKES TEXT UPPERCASE */
   text-transform: uppercase;
-  /* Thick border */
   border-bottom: 10px solid #FF404E;
   border-top: 10px solid #FF404E;
-  /* inline-block ENSURES BORDER FITS TO TEXT */
   display: inline-block;
   padding: 0.25rem;
   font-family: 'Helvetica';
@@ -93,7 +89,6 @@ body {
 .text-cont {
   height: 50%;
   width: 50%;
-  /*THIS CENTERS TEXT - CANNOT BE PLACED ON H1 SELECTOR DUE TO INLINE-BLOCK*/
   text-align: center;
   
 }
@@ -144,7 +139,7 @@ body {
   margin-top: 30rem;
   z-index: -1;
   
-  background-image: url("https://cdn.stocksnap.io/img-thumbs/960w/ZKBPKSFZ7I.jpg");
+  background-image: url("https://cdn.stocksnap.io/img-thumbs/960w/KMAO0W7U2Z.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
