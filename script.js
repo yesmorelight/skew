@@ -1,9 +1,6 @@
-$(document).ready(function() {
+const menuButton = document.querySelector('.menu-link');
+const menu = document.querySelector('.menu');
 
-  $('.menu').hide();
-  
-  $('.menu-show').click(function() {
-    $('.menu').slideToggle('slow');
-  });
-  
-});
+ menuButton.addEventListener("click", function() {
+     menu.classList.toggle('open');
+ });
